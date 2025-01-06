@@ -117,5 +117,7 @@ properly signed.
 
     openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 3560 -subj "//O=Org\CN=Test" -nodes
 
+New Version by DeadSec
+
 Now that [Let's Encrypt](https://letsencrypt.org) is available,
 you may wish to generate your free TLS certificate there.
